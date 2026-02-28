@@ -5,23 +5,34 @@
 ## Overview
 FRAME is an open protocol and sovereign system architecture for the emerging machine-driven internet. It defines a universal structure for building decentralized, AI-powered digital societies where programmable identity, logic, economy, and memory converge.
 
-FRAME is not a product — it is a foundational architecture. It defines how intelligent agents interact with users, apps, assets, and each other. It formalizes control surfaces between AI cognition, economic logic, and cryptographic authority.
+FRAME is not a product, it is a foundational architecture. It defines how dapps interact with AI agents, users, dapps, assets, and each other. It formalizes control surfaces between AI cognition, economic logic, and cryptographic authority.
 
-Join us in shaping the post-human digital operating system:
+Join in shaping the post-human digital operating system:
 👉 https://discord.gg/k7K4FwQpyf
 
 ---
+Most software today depends on centralized servers.
+Your identity lives on someone else’s infrastructure.
+Your data is stored remotely.
+Your permissions are enforced by platforms you don’t control.
 
-## Core Concepts
+FRAME exists to invert that model.
 
-### 🧠 AI-Native Profiles
-Every FRAME identity is a programmable, sovereign agent. Users instantiate "Profiles" that embed:
-- Cryptographic keys
-- AI Co-Agents
-- Logic modules
-- Memory and experience
+FRAME is a local-first identity runtime.
 
-Profiles can evolve, learn, and autonomously act. Each Profile is a sovereign intelligence hub, not just a static wallet or address.
+It runs modular dApps inside a controlled execution environment bound to a cryptographic identity stored on your machine.
+
+Each app declares the capabilities it needs.
+FRAME enforces those permissions at runtime.
+
+Every action is recorded in a signed, hash-linked log.
+The system state can be derived and verified deterministically.
+
+There is no backend service.
+No external account system.
+No platform-level trust assumption.
+
+Identity, execution, storage, and integrity are unified locally.
 
 ### 📦 NFTx State Capsules
 FRAME introduces NFTx — a standard for dynamic state containers:
