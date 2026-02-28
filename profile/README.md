@@ -34,54 +34,100 @@ No platform-level trust assumption.
 
 Identity, execution, storage, and integrity are unified locally.
 
-### 📦 NFTx State Capsules
-FRAME introduces NFTx — a standard for dynamic state containers:
-- Store logic, preferences, and agent state
-- Move across chains and systems
-- Signed, versioned, and hash-linked
-
-Everything in FRAME flows through NFTx capsules — identity, code, experience, and economic state.
-
-### 🧰 Modular Operating Surfaces
-FRAME applications are not apps — they are surfaces. These modular interaction layers include:
-- Logic (smart contracts, agents)
-- UI schema (custom views)
-- AI plugin interfaces
-- Message/event buses
-
-Agents and users can attach, detach, and route between surfaces dynamically.
-
-### ⚖️ Dual Token Economy
-FRAME supports:
-- $FRAME — governance + gas
-- $CHAT — programmable utility & AI credits
-
-Both tokens operate with game-theoretic models to:
-- Prevent spam
-- Reward computation
-- Sustain ecosystem coordination
-
-### 🛰️ Agent Swarms
-FRAME enables collaborative intelligence:
-- Agents cluster into swarms for tasks
-- Swarms operate as DAOs or federations
-- Each swarm is a living protocol
 
 ---
 
 ## Architecture
 
 ```mermaid
-graph TD
-    A[User] -->|Login| B[Profile Agent]
-    B --> C[NFTx Capsule]
-    B --> D[Memory]
-    B --> E[Surface Module]
-    E --> F[App Surface / UI / Contract]
-    F --> G[Other Agents / Swarms]
-    G --> H[External Networks]
-```
+flowchart TB
 
+%% =========================
+%% USER SPACE (dApps)
+%% =========================
+
+subgraph USER_SPACE["User Space (dApps)"]
+    AI["AI dApp"]
+    NOTES["Notes dApp"]
+    MESSAGES["Messages dApp"]
+    CONTACTS["Contacts dApp"]
+    TIMER["Timer dApp"]
+    WALLET["Wallet dApp"]
+end
+
+%% =========================
+%% KERNEL
+%% =========================
+
+subgraph KERNEL["FRAME Kernel"]
+
+    ROUTER["Intent Router"]
+    ENGINE["Execution Engine"]
+    GUARD["Capability Guard"]
+    MODE["Mode System\n(normal | safe | restoring)"]
+    STORAGE["Storage Engine"]
+    IDENTITY["Identity\n(Ed25519 Keypair)"]
+    RECEIPT["Execution Receipt Builder"]
+    CHAIN["Receipt Chain Log"]
+    STATE_ROOT["Deterministic State Root"]
+    REPLAY["Deterministic Replay"]
+    ATTEST["Cross-Instance Attestation"]
+
+end
+
+%% =========================
+%% FLOW: EXECUTION
+%% =========================
+
+AI --> ROUTER
+NOTES --> ROUTER
+MESSAGES --> ROUTER
+CONTACTS --> ROUTER
+TIMER --> ROUTER
+WALLET --> ROUTER
+
+ROUTER --> ENGINE
+ENGINE --> GUARD
+GUARD --> STORAGE
+GUARD --> IDENTITY
+
+ENGINE --> RECEIPT
+RECEIPT --> CHAIN
+CHAIN --> STATE_ROOT
+
+STATE_ROOT --> MODE
+
+%% =========================
+%% REPLAY / VERIFICATION
+%% =========================
+
+CHAIN --> REPLAY
+REPLAY --> STATE_ROOT
+CHAIN --> ATTEST
+ATTEST --> REPLAY
+
+%% =========================
+%% EXPORT / IMPORT
+%% =========================
+
+IDENTITY --> ATTEST
+STATE_ROOT --> ATTEST
+```
+### Protocol layers
+```mermaid
+flowchart TB
+
+USER["User / Input"]
+DAPPS["dApps (User Space)"]
+KERNEL["Kernel (Enforcement Layer)"]
+PROTOCOL["Protocol Rules (v1.0.0)"]
+CRYPTO["Cryptographic Guarantees"]
+
+USER --> DAPPS
+DAPPS --> KERNEL
+KERNEL --> PROTOCOL
+PROTOCOL --> CRYPTO
+```
 ---
 
 ## Development Goals
