@@ -1,16 +1,46 @@
-# FRAME Protocol
+# FRAME
 
-> A Sovereign Operating Framework for the Internet of Intelligence
+> Frame combines instant, verifiable app execution, optional blockchain settlement, and full user-level customization, making decentralized apps practical, flexible, and accessible without forcing people to understand the underlying technical complexity.
 
-## Overview
-FRAME is an open protocol and sovereign system architecture for the emerging machine-driven internet. It defines a universal structure for building decentralized, AI-powered digital societies where programmable identity, logic, economy, and memory converge.
+## About
 
-FRAME is not a product, it is a foundational architecture. It defines how dapps interact with AI agents, users, dapps, assets, and each other. It formalizes control surfaces between AI cognition, economic logic, and cryptographic authority.
+Is a system that lets people run apps and make agreements directly on their own device while keeping a signed, tamper resistant history of everything that happens, so instead of relying on trusting a company’s algorithm to decide what’s true, you can verify it yourself at any time; payments, contracts, rides, or marketplace deals can happen instantly inside Frame using its own internal monetary system, even offline, and every action is recorded in a way that can be verified. 
+
+This matters today because most digital services are controlled by centralized platforms that can change rules, freeze accounts, limit what you can build, or lock you into rigid designs, while blockchains are powerful for ownership and global value transfer are often too slow, expensive, and complicated for everyday app interactions. 
+
+Frame bridges that gap by handling fast, realtime activity locally so apps feel smooth and immediate, while still using blockchains alongside it as external verification when real world value needs to move in or out. On top of that, Frame includes AI-powered apps that can help you create your own apps, design your own layout, and customize how everything looks and behaves, meaning you’re not stuck with fixed interfaces given current platforms.
+
+---
+
+# Say Bye To:
+* passwords
+* multiple email accounts
+* two factor auth
+* required updates
+* multiple email accounts
+* account lockouts
+* platform bans controlling your data
+* “forgot password” loops
+* centralized data silos
+* proprietary algorithms
+* forced app redesigns you didn’t ask for
+* losing access because a company shuts down
+* being locked into one device
+* losing purchase history when switching platforms
+* opaque transaction histories
+* waiting for slow blockchain confirmations just to use an app
+* handing over personal data just to create an account
+* one-size-fits-all app interfaces
+* needing separate wallets for every crypto app
+
+
+---
 
 Join in shaping the post-human digital operating system:
 👉 https://discord.gg/k7K4FwQpyf
 
 ---
+
 Most software today depends on centralized servers.
 Your identity lives on someone else’s infrastructure.
 Your data is stored remotely.
@@ -130,147 +160,6 @@ PROTOCOL --> CRYPTO
 ```
 ---
 
-## Development Goals
-# FRAME Master Completion Checklist
-
-## Phase 0 --- Deterministic Kernel (COMPLETE)
-
--   [x] Ed25519 root identity (Vault model)
--   [x] Signed receipt chain
--   [x] Canonical JSON serialization defined and frozen
--   [x] Strict JSON-only storage enforcement
--   [x] Safe integer-only number enforcement
--   [x] Circular reference rejection
--   [x] Prototype pollution protection
--   [x] Frozen CAPABILITY_SCHEMA v1
--   [x] Capability subset enforcement
--   [x] Code hash binding for all installed dApps
--   [x] State root versioning discipline
--   [x] Receipt versioning discipline
--   [x] Protocol versioning discipline
--   [x] Deterministic state root computation
--   [x] Boot-time invariant enforcement
--   [x] Safe mode latch on integrity failure
--   [x] Deterministic sandbox injection (Date override)
--   [x] Deterministic sandbox injection (Math.random seeded)
--   [x] Async APIs blocked (setTimeout, fetch, etc.)
--   [x] Promise-return detection and rejection
--   [x] Authoritative reconstruction mode
--   [x] Full state reconstruction from receipts
--   [x] Reconstruction verification at boot
--   [x] Receipt continuity verification
--   [x] inputPayload stored in receipts (v2)
--   [x] inputHash verified against canonical payload
--   [x] Deterministic replay stability check
--   [x] Rolling receipt chain commitment
-
-## Phase 1 --- dApp System (COMPLETE)
-
--   [x] dApp manifest structure
--   [x] Capability-declared execution
--   [x] Scoped API injection
--   [x] No privileged internal dApp access
--   [x] All system features implemented as dApps (AI included)
--   [x] Deterministic execution isolation
--   [x] dApp preview() interface
--   [x] Router-based execution model
--   [x] Router-based preview broadcast
--   [x] AI classifier integration for previews
--   [x] AI + preview confidence merging
--   [x] Debounced live intent preview UI
--   [x] Inline preview cards
--   [x] Click-to-execute preview actions
-
-## Phase 2 --- Intent Orchestration (IN PROGRESS)
-
--   [ ] Structured multi-step intent objects
--   [ ] Composite intent preview cards
--   [ ] AI-generated multi-dApp execution plans
--   [ ] Conditional execution previews
--   [ ] Parameter extraction for complex intents
--   [ ] Execution graph visualization
-
-## Phase 3 --- Execution Environment Hardening (PARTIAL)
-
--   [x] Async blocked
--   [x] External I/O blocked by default
--   [ ] Explicit deterministic execution constraints documentation
--   [ ] Formal state transition function written (spec-level)
--   [ ] Execution guarantees documented clearly
--   [ ] Sandbox escape analysis audit
-
-## Phase 4 --- Controlled External Capabilities (NOT STARTED)
-
--   [ ] network.request capability
--   [ ] Deterministic logging of network responses
--   [ ] Mesh networking capability (WiFi/Bluetooth)
--   [ ] Peer-to-peer communication layer
--   [ ] External capability boundary model
--   [ ] Nondeterministic input sealing strategy
--   [ ] Receipt inclusion of external data preimages
-
-## Phase 5 --- AI-First Operating Environment (EARLY STAGE)
-
--   [x] AI as catch-all fallback
--   [x] AI classifier for structured intent
--   [ ] AI intent composition engine
--   [ ] AI memory dApp integration
--   [ ] Context-aware AI ranking across dApps
--   [ ] AI tool chaining engine
--   [ ] Cross-dApp reasoning support
-
-## Phase 6 --- Vault / Identity Layer Expansion (OPTIONAL)
-
--   [x] Single-root sovereign Vault
--   [ ] Multi-sig Vault abstraction
--   [ ] Delegated execution model
--   [ ] Policy-based signature verification
--   [ ] Organizational Vault model
--   [ ] Device-linked subkeys
-
-## Phase 7 --- Performance & Scalability
-
--   [ ] Merkle-based receipt commitment optimization
--   [ ] Incremental stateRoot caching
--   [ ] Lazy reconstruction option
--   [ ] Snapshot export/import optimization
--   [ ] Large receipt chain performance testing
-
-## Phase 8 --- Formalization
-
--   [ ] Full protocol specification document
--   [ ] State transition formal definition
--   [ ] Receipt format spec v2.0.0
--   [ ] Canonicalization formal spec
--   [ ] Deterministic sandbox specification
--   [ ] Security model document
--   [ ] Threat model analysis
--   [ ] Migration guide between protocol versions
-
-## Phase 9 --- Product Completion
-
--   [ ] Human-readable receipt explorer
--   [ ] Visual state root inspector
--   [ ] Vault management UI polish
--   [ ] Capability permission UI
--   [ ] dApp store / installer UX
--   [ ] Error clarity and developer diagnostics
--   [ ] Mobile form factor support
-
-## Definition of Fully Complete
-
-FRAME can be considered fully complete when:
-
--   Deterministic kernel is frozen
--   Intent composition is implemented
--   External capability model is finalized
--   Formal protocol specification is written
--   Vault export/import is stable
--   Security model is documented
--   Execution environment is provably sealed
--   AI orchestration is stable and composable
-
----
 
 ## License
 MIT License — see `LICENSE.md`
