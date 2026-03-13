@@ -1,7 +1,10 @@
 # FRAME
+> [!IMPORTANT]
+> The latest repo isn't on github yet. 
+> The other repos on this github lack multiple functions but show part of the spine
 
 > Frame combines instant, verifiable app execution, optional blockchain settlement, and full user-level customization, making decentralized apps practical, flexible, and accessible without forcing people to understand the underlying technical complexity.
-#### **[click here for demonstration](./DEMO.md)**  
+
 ## About
 
 Is a system that lets people run apps and make agreements directly on their own device while keeping a signed, tamper resistant history of everything that happens, so instead of relying on trusting a company’s algorithm to decide what’s true, you can verify it yourself at any time; payments, contracts, rides, or marketplace deals can happen instantly inside Frame using its own internal monetary system, even offline, and every action is recorded in a way that can be verified. 
