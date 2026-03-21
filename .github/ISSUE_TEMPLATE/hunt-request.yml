@@ -1,0 +1,57 @@
+---
+name: 🎯 Hunt Request
+description: Request a new hunt, challenge, or bounty
+title: "[HUNT] "
+labels: ["hunt", "enhancement"]
+assignees: []
+---
+
+## Hunt Details
+
+**Category:**
+- [ ] 📍 Location
+- [ ] 📸 Photo
+- [ ] 🧩 Puzzle
+- [ ] 😂 Meme
+- [ ] 🔮 Mystery
+- [ ] 🎨 Creative
+- [ ] ✅ Micro-task
+- [ ] 👥 Community
+- [ ] 🏪 Sponsor
+
+**Difficulty:**
+- [ ] Easy (reputation Lv 1+)
+- [ ] Medium (reputation Lv 3+)
+- [ ] Hard (reputation Lv 5+)
+- [ ] Legendary (reputation Lv 10+)
+
+## Description
+
+_What should players do?_
+
+## Clues
+
+_Provide clues for the hunt_
+
+## Verification
+
+**How should submissions be verified?**
+- [ ] GPS location
+- [ ] Image analysis
+- [ ] Community vote
+- [ ] Agent validation
+- [ ] Other: __________
+
+## Reward
+
+**Token:** FRAME
+**Amount:** __________
+
+## Geo Bounds (optional)
+
+**Center:** lat, lng
+**Radius:** meters
+
+## Deadline (optional)
+
+__________

@@ -97,6 +97,67 @@ FRAME uses frozen protocol versions for compatibility:
 
 These versions define compatibility across FRAME nodes. See [Protocol Versions](protocol_versions.md) for details.
 
+---
+
+## 🎯 HUNT – Real-World Discovery Game
+
+> Pokémon Go + Reddit + TikTok + Scavenger Hunts + Bounty Economy — all on FRAME
+
+**HUNT** is the first social dApp built on FRAME. It turns the real world into an interactive game where players earn rewards by discovering, creating, solving, and sharing content.
+
+### How It Works
+
+```
+🗺️ Explore the Map → 🎯 Accept Hunts → 📸 Submit Proofs → ✅ Get Verified → 💰 Earn Rewards
+```
+
+### Core Features
+
+| Feature | Description |
+|---------|-------------|
+| 🎯 **Hunts** | Location, photo, puzzle, meme, mystery challenges |
+| 📍 **Discovery Mode** | Post and vote on real-world discoveries |
+| 😂 **Meme Economy** | Competitive meme challenges with community voting |
+| 💰 **Bounties** | Escrow-backed rewards for completing tasks |
+| 🤖 **AI Hunts** | Auto-generated hunts near any location |
+| 🏆 **Reputation** | Level up through discoveries, hunts, and puzzles |
+| 🗺️ **Global Map** | Interactive map of hunts, discoveries, and artifacts |
+| 🏪 **Sponsor Hunts** | Businesses create branded challenges |
+
+### Quick Start
+
+```typescript
+import { createHuntApp } from "./hunt/src/index.js";
+
+const app = createHuntApp();
+
+// Register a player
+app.identity.register({ publicKey: "0xyourkey", handle: "explorer" });
+
+// AI generates a hunt
+const hunt = app.aiGenerator.generateRandom("agent", 100, "FRAME");
+
+// Submit and verify
+const sub = app.engine.submitAnswer(hunt.id, "0xyourkey", sensorPayload);
+app.engine.voteOnSubmission(sub.id, true);
+```
+
+### Tech Stack
+
+- **TypeScript** — fully typed, zero external runtime dependencies
+- **FRAME Receipt Chain** — every action is cryptographically verified
+- **Deterministic State** — reproducible state root computation
+- **GPS Verification** — haversine distance checks for location hunts
+- **Community Voting** — democratic verification with 70% threshold
+
+### Resources
+
+- 📖 [Technical Specification](docs/hunt/SPECIFICATION.md)
+- 🧪 [Tests](hunt/tests/hunt.test.ts) — 30+ test cases
+- 📦 [Source Code](hunt/src/)
+
+---
+
 ## Key Invariants
 
 These principles must always hold:
