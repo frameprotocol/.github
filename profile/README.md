@@ -3,6 +3,8 @@
 > The latest repo isn't on github yet. 
 > The other repos on this github lack multiple functions but show part of the spine
 
+[![HuggingFace](https://img.shields.io/badge/-HuggingFace-3B4252?style=flat&logo=huggingface&logoColor=yellow)](https://huggingface.co/frameprotocol)
+
 ## What is FRAME?
 
 FRAME is a **local-first, deterministic runtime** for applications and agents. It executes user intents through a capability-constrained execution engine, producing cryptographically signed receipts that enable verifiable state reconstruction and integrity verification.
