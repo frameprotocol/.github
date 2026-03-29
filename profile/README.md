@@ -22,6 +22,8 @@ long ass text (wip lol)
 
 See `Documents` for detailed explanations.
 
+---
+
 > Frame is a local, deterministic runtime for applications. It executes user intents through a capability constrained execution engine, producing cryptographically signed receipts that enable verifiable state reconstruction and integrity verification.
 
 Instead of apps mutating state directly, the system processes intents through a deterministic kernel that:
