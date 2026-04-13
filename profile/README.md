@@ -13,6 +13,21 @@ I have a light knowledge on computers, explain what Frame is to me and how it ca
 
 ---
 
+# Notable Achievements
+* Deterministic intent execution engine
+* Capability based security model
+* Cryptographically verifiable receipts
+* Replayable and attestable state transitions
+* Federated synchronization with trust controls
+* Snapshot import/export with integrity verification
+* Fully sandboxed execution environment
+* Comprehensive invariant enforcement
+
+*Sovereign runtime capable of supporting verifiable decentralized applications.*
+
+
+---
+
 | Repo | What is it? | Status | Completion |
 | - | - | - | - |
 | `Frame` | Local system with identity, encrypted storage, apps, p2p networking, capability permissions, deterministic execution, signed logs, replayable state, composable dapps, and full user control | ⏳wip | 85% |
