@@ -85,7 +85,7 @@ FRAME UI
 | • runs as a nested deterministic sandbox | • service orchestration |
 | • runs replicated across distributed systems | • driver abstraction |
 | • runs self-contained with no external dependencies | • networking layer |
-|  | • memory control |
+|  deterministic OS image builder with AI-assisted system composition | • memory control |
 |  | • governance layer |
 |  | • audit + verification |
 |  | • self-maintenance agents |
