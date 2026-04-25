@@ -283,8 +283,9 @@ See `Documents` for detailed explanations.
 ### All application behavior is `verifiable`, `replayable`, and `deterministic`.
 
 Join in shaping the post human digital operating system:
-Can Use this centulized service messanging platform for web2lense👉 https://discord.gg/k7K4FwQpyf (I wouldnt trust it)
-Rebuild the internet to be logically healthy, change the world.
+Can Use this centulized service messanging platform for web2lense👉 https://discord.gg/k7K4FwQpyf
+
+> Rebuild the internet to be logically healthy, change the world.
 
 ## License
 MIT License — see `LICENSE.md`
