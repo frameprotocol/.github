@@ -6,7 +6,7 @@
     <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-ChatGPT-icon-white-png-large-size.png" width="80"/>
   </a>
   &nbsp;&nbsp;<b><i>understand</i></b>&nbsp;&nbsp;
-  <a href="https://grok.x.ai/?q=Explain+Frame+protocol+simply+and+how+it+works.+Full+details:+https://github.com/frameprotocol/.github/issues/1" target="_blank">
+  <a href="https://x.ai/" target="_blank">
     <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/grok.png" width="80"/>
   </a>
   &nbsp;&nbsp;<b><i>with any</i></b>&nbsp;&nbsp;
