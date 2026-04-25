@@ -1,26 +1,13 @@
 <h1 align="center">Frame</h1>
 
 <p align="center">
-  <b><i>click</i></b>&nbsp;&nbsp;
-  <a href="https://chat.openai.com/?q=Explain+Frame+protocol+simply+and+how+it+works.+Full+details:+https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
-    <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-ChatGPT-icon-white-png-large-size.png" width="80"/>
+  <a href="https://www.google.com/" target="_blank">
+    <img src="neura_ai_transparent.png" alt="neura ai" width="140"/>
   </a>
-  &nbsp;&nbsp;<b><i>understand</i></b>&nbsp;&nbsp;
-  <a href="https://x.ai/" target="_blank">
-    <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/grok.png" width="80"/>
+  &nbsp;&nbsp;
+  <a href="https://chat.openai.com/?q=Explain+Frame+protocol+in+simple+terms%2C+what+it+does%2C+why+it+matters%2C+how+its+permissions+work%2C+how+the+UI+is+generated%2C+and+give+real+world+examples.+Use+this+for+full+context%3A+https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
+    <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-ChatGPT-icon-white-png-large-size.png" alt="ChatGPT" width="36"/>
   </a>
-  &nbsp;&nbsp;<b><i>with any</i></b>&nbsp;&nbsp;
-  <a href="https://claude.ai/new?q=Explain+Frame+protocol+simply+and+how+it+works.+Full+details:+https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
-    <img src="https://img.icons8.com/ios_filled/512/FFFFFF/claude-ai.png" width="80"/>
-  </a>
-  &nbsp;&nbsp;<b><i>AI</i></b>&nbsp;&nbsp;
-  <a href="https://www.perplexity.ai/search?q=Explain+Frame+protocol+simply+and+how+it+works.+Full+details:+https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
-    <img src="https://images.seeklogo.com/logo-png/61/2/perplexity-ai-icon-black-logo-png_seeklogo-611679.png" width="80"/>
-  </a>
-</p>
-
-<p align="center">
-  Or just read <a href="https://github.com/frameprotocol/.github/issues/1">this</a>
 </p>
 
 ---
