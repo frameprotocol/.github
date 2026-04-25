@@ -13,7 +13,7 @@
     <img src="neura_ai_transparent.png" alt="neura ai" width="140"/>
   </a>
   &nbsp;&nbsp;
-  <a href="https://chat.openai.com/?q=Explain+Frame+protocol+in+simple+terms%2C+what+it+does%2C+why+it+matters%2C+how+its+permissions+work%2C+how+the+UI+is+generated%2C+and+give+real+world+examples.+Use+this+for+full+context%3A+https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
+  <a href="https://www.google.com" target="_blank">
     <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-ChatGPT-icon-white-png-large-size.png" alt="ChatGPT" width="36"/>
   </a>
 </p>
