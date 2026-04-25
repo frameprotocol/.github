@@ -55,6 +55,19 @@
 
 </div>
 
+```python
+Hardware
+  ↓
+FRAME Microkernel
+  ↓
+FRAME System Services
+  ↓
+FRAME Runtime
+  ↓
+FRAME UI
+```
+
+
 > [!CAUTION]
 > **Core Control & Execution**
 >
