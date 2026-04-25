@@ -55,6 +55,7 @@
 
 </div>
 
+
 ```python
 Hardware
   ↓
@@ -66,6 +67,23 @@ FRAME Runtime
   ↓
 FRAME UI
 ```
+[![](https://img.shields.io/badge/OS_Agnostic-Any_Hardware-orange)](https://github.com/frameprotocol) [![](https://img.shields.io/badge/Trust-Blockchains-cyan)](https://github.com/frameprotocol) [![](https://img.shields.io/badge/Laws-Governance-red)](https://github.com/frameprotocol) [![](https://img.shields.io/badge/AI-Decentralized-gray)](https://github.com/frameprotocol) [![](https://img.shields.io/badge/Execution-Deterministic-blue)](...)
+[![](https://img.shields.io/badge/Security-Capability_Based-critical)](...)
+[![](https://img.shields.io/badge/Identity-Ed25519_Signed-purple)](...)
+[![](https://img.shields.io/badge/Storage-Content_Addressed-success)](...)
+[![](https://img.shields.io/badge/Encryption-AES_GCM-green)](...)
+[![](https://img.shields.io/badge/Logs-Hash_Chained-lightgrey)](...)
+[![](https://img.shields.io/badge/Apps-Sandboxed-important)](...)
+[![](https://img.shields.io/badge/Runtime-Local_First-yellow)](...)
+[![](https://img.shields.io/badge/Networking-P2P_Optional-blueviolet)](...)
+[![](https://img.shields.io/badge/Agents-Tool_Orchestrated-9cf)](...)
+[![](https://img.shields.io/badge/Data-User_Owned-black)](...)
+[![](https://img.shields.io/badge/Replay-Verifiable-orange)](...)
+[![](https://img.shields.io/badge/Execution-Enforced_Not_Suggested-red)](...)
+[![](https://img.shields.io/badge/AI-Assistive_Not_Authoritative-lightgrey)](...)
+[![](https://img.shields.io/badge/State-Replayable-blue)](...)
+[![](https://img.shields.io/badge/Permissions-Explicit_Grants-critical)](...)
+[![](https://img.shields.io/badge/Logs-Hash_Chained-lightgrey)](https://en.wikipedia.org/wiki/Hash_chain)
 
 | Runs Anywhere standalone/localfirst | Core System Pieces |
 |----------------------------------|-------------------|
