@@ -67,6 +67,29 @@ FRAME Runtime
 FRAME UI
 ```
 
+| Runs Anywhere standalone/localfirst | Core System Pieces |
+|----------------------------------|-------------------|
+| • runs standalone on bare metal | • intent parsing |
+| • runs as its own bootable OS | • capability enforcement |
+| • runs inside a VM (KVM / QEMU / VirtualBox) | • deterministic execution |
+| • runs inside a microVM (Firecracker-style) | • sandbox isolation |
+| • runs inside a container (Docker / OCI) | • state management |
+| • runs headless as a daemon | • receipt generation |
+| • runs as a CLI entrypoint | • signature + identity |
+| • runs as a desktop UI environment | • storage (canonical JSON) |
+| • runs embedded (edge / device / vehicle) | • state root hashing |
+| • runs over network as a remote node | • replay engine |
+| • runs peer-to-peer across multiple nodes | • fast UI synthesis |
+| • runs inside a browser runtime (WASM) | • layout engine |
+| • runs inside another FRAME instance | • dApp routing |
+| • runs as a nested deterministic sandbox | • service orchestration |
+| • runs replicated across distributed systems | • driver abstraction |
+| • runs self-contained with no external dependencies | • networking layer |
+|  | • memory control |
+|  | • governance layer |
+|  | • audit + verification |
+|  | • self-maintenance agents |
+
 
 > [!CAUTION]
 > **Core Control & Execution**
