@@ -99,7 +99,7 @@
 
 *e.g.,* `how do i intergrate my current system?` ,  `give me an example dapp for food delivery that intergrates other dapps.` , `how does frame work?` , `list all the things frame combines` , `why use frame?` , `how does Frame support Universial basic income?` , `how can frame change the world?` 
 
-## 👇 How it works 👇 Or just read [this](https://github.com/frameprotocol/.github/issues/1)
+<h2 align="center">👇 How it works 👇</h2>
 
 <p align="center">
   <a href="https://chat.openai.com/?q=I+have+a+light+knowledge+on+computers%2C+explain+what+Frame+is..." target="_blank">
@@ -118,6 +118,10 @@
     <img src="https://images.seeklogo.com/logo-png/61/2/perplexity-ai-icon-black-logo-png_seeklogo-611679.png" width="80"/>
   </a>
   &nbsp;&nbsp;<b><i><</i></b>&nbsp;&nbsp;
+</p>
+
+<p align="center">
+  Or just read <a href="https://github.com/frameprotocol/.github/issues/1">this</a>
 </p>
 
 ---
