@@ -2,19 +2,19 @@
 
 <p align="center">
   <b><i>click</i></b>&nbsp;&nbsp;
-  <a href="https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
+  <a href="https://chat.openai.com/?q=Explain+Frame+protocol+simply+and+how+it+works.+Full+details:+https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
     <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-ChatGPT-icon-white-png-large-size.png" width="80"/>
   </a>
   &nbsp;&nbsp;<b><i>understand</i></b>&nbsp;&nbsp;
-  <a href="https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
+  <a href="https://x.ai/" target="_blank">
     <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/grok.png" width="80"/>
   </a>
   &nbsp;&nbsp;<b><i>with any</i></b>&nbsp;&nbsp;
-  <a href="https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
+  <a href="https://claude.ai/new?q=Explain+Frame+protocol+simply+and+how+it+works.+Full+details:+https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
     <img src="https://img.icons8.com/ios_filled/512/FFFFFF/claude-ai.png" width="80"/>
   </a>
   &nbsp;&nbsp;<b><i>AI</i></b>&nbsp;&nbsp;
-  <a href="https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
+  <a href="https://www.perplexity.ai/search?q=Explain+Frame+protocol+simply+and+how+it+works.+Full+details:+https://raw.githubusercontent.com/frameprotocol/docs/refs/heads/main/README.md" target="_blank">
     <img src="https://images.seeklogo.com/logo-png/61/2/perplexity-ai-icon-black-logo-png_seeklogo-611679.png" width="80"/>
   </a>
 </p>
