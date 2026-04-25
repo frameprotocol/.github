@@ -1,9 +1,57 @@
-# *Frame Link*
-> [!IMPORTANT]
-> Not released
+<h1 align="center">Frame</h1>
+<h2 align="center"><code>(⌐◕W◕)╯︵ ⌘</code></h2>
+
+<p align="center">
+  <a href="https://chat.openai.com/?q=I+have+a+light+knowledge+on+computers%2C+explain+what+Frame+is..." target="_blank">
+    <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-ChatGPT-icon-white-png-large-size.png" width="80"/>
+  </a>
+  &nbsp;&nbsp;<b><i>explain</i></b>&nbsp;&nbsp;
+  <a href="https://grok.x.ai/?q=I+have+a+light+knowledge+on+computers%2C+explain+what+Frame+is..." target="_blank">
+    <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/grok.png" width="80"/>
+  </a>
+  &nbsp;&nbsp;<b><i>from any</i></b>&nbsp;&nbsp;
+  <a href="https://claude.ai/new?q=I+have+a+light+knowledge+on+computers%2C+explain+what+Frame+is..." target="_blank">
+    <img src="https://img.icons8.com/ios_filled/512/FFFFFF/claude-ai.png" width="80"/>
+  </a>
+  &nbsp;&nbsp;<b><i>Ai</i></b>&nbsp;&nbsp;
+  <a href="https://www.perplexity.ai/search?q=I+have+a+light+knowledge+on+computers%2C+explain+what+Frame+is..." target="_blank">
+    <img src="https://images.seeklogo.com/logo-png/61/2/perplexity-ai-icon-black-logo-png_seeklogo-611679.png" width="80"/>
+
+
+<p align="center">
+  Or just read <a href="https://github.com/frameprotocol/.github/issues/1">this</a>
+</p>
+
+---
+
+> [!WARNING]
+> *alpha no beta just full release*
+
+<div align="center">
+
+<blockquote align="left">
+
+
+<table align="center">
+  <tr>
+    <th>FRAME BOOTSTRAP</th>
+    <th>Status</th>
+  </tr>
+  <tr>
+    <td>████████████████████████████████████████▓░</td>
+    <td>97%</td>
+  </tr>
+</table>
+
+<p align="center">⟡ deterministic runtime almost synced... ⟡</p>
+
+</blockquote>
+
+</div>
 
 > [!CAUTION]
 > **Core Control & Execution**
+>
 > programmable UI commands  
 > deterministic dApp execution  
 > symbol-driven intent routing  
@@ -15,6 +63,7 @@
 > deterministic front-end behavior independent of model quirks  
 >
 > **Agent & Protocol Systems**
+>
 > agent-to-agent protocols  
 > low-token control systems  
 > hybrid natural language + control language interaction  
@@ -29,6 +78,7 @@
 > plug-and-play AI modules using shared symbol protocol  
 >
 > **UI Intelligence & Adaptation**
+>
 > real-time intent locking during typing  
 > predictive UI reconfiguration based on input  
 > automatic dApp surfacing before execution  
@@ -45,6 +95,7 @@
 > replacing user effort with system anticipation
 >
 > **Interaction Model & UX**
+>
 > gesture-based system control (tap / hold / drag differentiation)  
 > contextual action spawning via hold-release  
 > spatial UI as a reasoning surface  
@@ -56,6 +107,7 @@
 > unified surface rendering (no hidden UI modes)
 >
 > **dApp System & Extensibility**
+>
 > dApp creation through natural language  
 > dApp mutation through natural language  
 > self-modifying interface components  
@@ -67,6 +119,7 @@
 > local AI operating surface (not just a chat UI)
 >
 > **Memory & Context Systems**
+>
 > timeline-as-dApp (history as a first-class entity)  
 > memory-aware interaction surfaces (timeline integration)  
 > fallback-safe rendering (every output becomes visible)  
@@ -74,6 +127,7 @@
 > consistent cross-flow execution behavior (no silent failures)
 >
 > **System Architecture Direction**
+>
 > intent-first interface instead of text-first interface  
 > reduction of ambiguity before execution  
 > internal protocol that can outlive any specific model  
@@ -85,6 +139,7 @@
 > interface behaving like a reasoning system, not a tool
 >
 > **Future / Advanced Capabilities**
+>
 > foundation for autonomous UI systems  
 > self-organizing interface layouts  
 > adaptive workflows based on user behavior  
@@ -105,20 +160,18 @@
   <a href="https://chat.openai.com/?q=I+have+a+light+knowledge+on+computers%2C+explain+what+Frame+is..." target="_blank">
     <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-ChatGPT-icon-white-png-large-size.png" width="80"/>
   </a>
-  &nbsp;&nbsp;<b><i>autoask</i></b>&nbsp;&nbsp;
+  &nbsp;&nbsp;<b><i>explain</i></b>&nbsp;&nbsp;
   <a href="https://grok.x.ai/?q=I+have+a+light+knowledge+on+computers%2C+explain+what+Frame+is..." target="_blank">
     <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/dark/grok.png" width="80"/>
   </a>
-  &nbsp;&nbsp;<b><i>any</i></b>&nbsp;&nbsp;
+  &nbsp;&nbsp;<b><i>from any</i></b>&nbsp;&nbsp;
   <a href="https://claude.ai/new?q=I+have+a+light+knowledge+on+computers%2C+explain+what+Frame+is..." target="_blank">
     <img src="https://img.icons8.com/ios_filled/512/FFFFFF/claude-ai.png" width="80"/>
   </a>
-  &nbsp;&nbsp;<b><i>Ai ></i></b>&nbsp;&nbsp;
+  &nbsp;&nbsp;<b><i>Ai</i></b>&nbsp;&nbsp;
   <a href="https://www.perplexity.ai/search?q=I+have+a+light+knowledge+on+computers%2C+explain+what+Frame+is..." target="_blank">
     <img src="https://images.seeklogo.com/logo-png/61/2/perplexity-ai-icon-black-logo-png_seeklogo-611679.png" width="80"/>
-  </a>
-  &nbsp;&nbsp;<b><i><</i></b>&nbsp;&nbsp;
-</p>
+
 
 <p align="center">
   Or just read <a href="https://github.com/frameprotocol/.github/issues/1">this</a>
