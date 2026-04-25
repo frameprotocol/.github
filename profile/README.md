@@ -194,18 +194,70 @@ FRAME UI
 
 ---
 
-# Notable Achievements
-* Deterministic intent execution engine
-* Capability based security model
-* Cryptographically verifiable receipts
-* Replayable and attestable state transitions
-* Federated synchronization with trust controls
-* Snapshot import/export with integrity verification
-* Fully sandboxed execution environment
-* Comprehensive invariant enforcement
+## 3 Core Systems
+
+### 1.  Deterministic Compute Mesh
+
+`node A` → `sends intent` → `node B executes` → `returns receipt` → `A verifies`
+
+*Allows for*:
+
+```
+distributed AI execution
+shared GPU pools
+edge compute swarms (cars, devices, robots)
+trustless job execution
+verifiable compute receipts
+replayable execution
+deterministic multi-node workflows
+compute delegation without trust
+composable cross-node pipelines
+self-healing infrastructure
+optional incentive layers (credits/tokens)
+```
+
+### 2.  Identityless System Images (Device Capsules)
+
+`FRAME system` → `strip identity` → `export` → `boot anywhere` → `new identity`
+
+*Allows for*:
+
+```
+portable OS-level AI systems
+hardware-agnostic deployments
+zero-leak cloning (no identity bleed)
+reproducible system states
+instant environment provisioning
+robot / car / server templates
+fleet deployment (1000 identical nodes)
+deterministic OS snapshots
+rollback via image
+peer-to-peer system distribution
+sovereign device instantiation
+```
+
+### 3.  Duplication + Builder dApp
+
+`system` → `enter build mode` → `modify` → `verify` → `export`
+
+*Allows for*:
+
+```
+AI-assisted system composition
+dApp-level code modification via AI
+deterministic system building (not copying)
+preloading models, data, drivers
+full system templating (robot / edge / server)
+policy-controlled system mutation
+diff + simulation + verification workflows
+reproducible builds (like Nix, but AI-aware)
+custom runtime environments
+safe modification pipeline (propose → simulate → verify → commit)
+```
+
+---
 
 *Sovereign runtime capable of supporting verifiable decentralized applications.*
-
 
 ---
 
@@ -222,13 +274,13 @@ See `Documents` for detailed explanations.
 
 > Frame is a local, deterministic runtime for applications. It executes user intents through a capability constrained execution engine, producing cryptographically signed receipts that enable verifiable state reconstruction and integrity verification.
 
-Instead of apps mutating state directly, the system processes intents through a deterministic kernel that:
+**Instead of apps mutating state directly, the system processes intents through a deterministic kernel that:**
 - Resolves intents to dApps
 - Executes dApps inside a capability scoped APIs
 - Records executions as cryptographically linked receipts
 - Derives a deterministic state root from execution
 
-All application behavior is verifiable, replayable, and deterministic.
+### All application behavior is `verifiable`, `replayable`, and `deterministic`.
 
 Join in shaping the post human digital operating system:
 Can Use this centulized service messanging platform for web2lense👉 https://discord.gg/k7K4FwQpyf (I wouldnt trust it)
