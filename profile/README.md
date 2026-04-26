@@ -27,6 +27,44 @@
 
 ---
 
+```mermaid
+flowchart TB
+
+    %% Entry point
+    U[User Installs FRAME] --> CH{Where can it run}
+
+    %% Bare metal path
+    CH -->|Direct Install| BM[Hardware Bare Metal]
+    BM --> RT1[FRAME Runtime]
+    RT1 --> APPS1[Apps UI AI]
+
+    %% OS path
+    CH -->|On Existing System| OS[Operating System]
+    OS --> RT2[FRAME Runtime]
+    RT2 --> APPS2[Apps UI AI]
+
+    %% Virtualization / Container path
+    OS --> VM[VM / VE]
+    VM --> RT3[FRAME Runtime]
+    RT3 --> APPS3[Apps UI AI]
+
+    %% Browser path
+    OS --> WB[Web Browser]
+    WB --> RT4[FRAME Runtime]
+    RT4 --> APPS4[Apps UI AI]
+
+    %% Unification
+    RT1 --> FINAL[Same FRAME Behavior Everywhere]
+    RT2 --> FINAL
+    RT3 --> FINAL
+    RT4 --> FINAL
+
+    %% Clickable link
+    click U "https://github.com/frameprotocol/frame"
+
+```
+
+---
 <table>
 <tr>
 <td width="50%" valign="top">
