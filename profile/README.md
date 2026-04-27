@@ -7,16 +7,21 @@
     </sup>
   </sub>
 </h1>
-
+Whats Frame?
+<p align="center">select an AI to explain & ask questions</p>
 <p align="center">
   <a href="https://www.google.com/" target="_blank">
     <img src="neura_ai_transparent.png" alt="neura ai" width="140"/>
   </a>
   &nbsp;&nbsp;
+  &nbsp;&nbsp;
   <a href="https://www.google.com" target="_blank">
     <img src="https://www.edigitalagency.com.au/wp-content/uploads/new-ChatGPT-icon-white-png-large-size.png" alt="ChatGPT" width="36"/>
   </a>
 </p>
+
+<!-- update both linked images to use a frame dapp governed public asset export layer with selective exposure  -->
+
 
 ---
 
