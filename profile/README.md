@@ -28,6 +28,10 @@ Whats Frame?
 > [!NOTE]
 > **Sovereign Deterministic Operating System for Autonomous AI Runtime Orchestration**
 >
+> ### User interface: Dynamic automatic self generating real time TUI
+>
+> ---
+>
 > `hardware agnostic autonomous artificial intelligence native execution layer capable of operating across multiple abstraction boundaries including baremetal deployment kernel level integration userspace runtime atop Linux standalone runtime analogous to Nodejs or browser based sandbox environments spanning servers laptops edge devices vehicles robots and distributed machines replacing traditional application and operating system paradigms with a self evolving self modifying adaptive deterministic local first sovereign runtime and operating system featuring artificial intelligence assisted intent compilation and symbol token execution user interface state driven constrained reasoning that dynamically shapes model behavior modular dApp architecture with capability based security and isolated execution a verifiable computation pipeline producing signed receipts hash linked chains and execution envelopes multinode quorum validation with replayable and auditable state history composable state packaging for branching diffing merging rollback and fullstate version control a programmable builder enabling selective inclusion of applications execution history state permissions drivers models and currency permission gated installation with reversible applications and localfirst marketplace distribution identityanchored cryptographic authorship and signature verification without centralized authority an integrated value layer via simulated and real blockchain backed currency tied to execution provenance and a fully programmable agent driven interface in which AI and UI cocontrol each other to orchestrate deterministic trustless portable and shareable computation across users identities devices and nodes`
 
 ---
